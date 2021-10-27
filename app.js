@@ -24,6 +24,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
   extended: true
 })); 
+app.get("/", function (req, res) {
+  res.send('BACKEND CARI TIM NIH BOS')
+});
 app.use("/posts", postRoutes);
 
 const port = process.env.PORT || 3000;

@@ -1,12 +1,12 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "description": "Node.js training",
+  "description": "API CariTim",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
   },
-  "author": "Bagas Adi Firdaus",
+  "author": "Bagas Adi Firdaus & Aidil Fitra",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
